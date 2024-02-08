@@ -1,0 +1,28 @@
+[alias]	
+	lg = log --graph --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(bold white)— %an%C(reset)%C(bold yellow)%d%C(reset)' --abbrev-commit --date=relative
+	alg = log --graph --all --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(bold white)— %an%C(reset)%C(bold yellow)%d%C(reset)' --abbrev-commit --date=relative
+	
+    b = branch
+    sw = switch
+    swc = switch -c
+
+    st = status
+    ss = status -s
+
+    d = diff
+    dc = diff --cached
+    dcw = diff --cached --word-diff
+
+    c = commit -v
+    ca = commit -v -a
+    cm = commit -m
+
+    p = push
+    pv = push -v
+    pd = push --dry-run
+    pf = push --force-with-lease
+    pff = push --force
+
+    up = pull --rebase
+    upv = pull --rebase -v
+    upa = pull --rebase --autostash
