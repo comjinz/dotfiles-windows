@@ -26,3 +26,5 @@
     up = pull --rebase
     upv = pull --rebase -v
     upa = pull --rebase --autostash
+[rebase]
+    autostash = true
